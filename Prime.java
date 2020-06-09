@@ -17,11 +17,11 @@ public class Prime
             Prime ob = new Prime(n);
             if(ob.check())
             {
-                System.out.println("It is a PRIME Number.");
+                System.out.println(ob.n+" is a PRIME Number.");
             }
             else
             {
-                System.out.println("It is not a PRIME Number.");
+                System.out.println(ob.n+" is a COMPOSITE Number.");
             }
             ob=null;
             int choice;       //To check it more than once.
